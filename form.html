@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="POST">
+        <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="Username" maxlength="6" required> <br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="Password" maxlength="6" required> <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Email Address"> <br>
+
+        <label for="phone">Contact Number: </label>
+        <input type="tel" id="phone" placeholder="Contact Number" minlength="12"> <br>
+        
+        <label for="bday">Birthday: </label>
+        <input type="date" id="bday"> <br>
+
+        <label for="quantity">Quantity: </label>
+        <input type="number" id="quantity" min="0" max="100" value="0"> <br>
+
+        <label for="sex">Sex: </label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex"> <br>
+
+        <label for="payment">Payment: </label>
+        <select id="payment">
+            <option value="gcash">Gcash</option>
+            <option value="creadit-card">Creadit Card</option>
+            <option value="on-cashier">Chasier</option>
+        </select> <br>
+
+        <label for="paymentcheck">Payment Done: </label>
+        <input type="checkbox" id="paymentcheck"> <br>
+
+        <label for="description">Description: </label> <br> 
+        <textarea  id="description" cols="30" rows="5"></textarea> <br>
+
+        <label for="file">File: </label>
+        <input type="file" id="file"> <br>
+
+        <input type="submit"> <br> 
+        <input type="reset">
+    </form>
+</body>
+</html>
