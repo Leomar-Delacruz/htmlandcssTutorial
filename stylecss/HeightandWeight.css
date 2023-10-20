@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-color: hsl(0, 0%, 35%);
+    height: 100vh;
+}
+
+.box{
+    border: 2px solid;
+    padding: 15px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: white;
+
+    min-height: 50%;
+}
