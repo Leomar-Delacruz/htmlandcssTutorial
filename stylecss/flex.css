@@ -1,0 +1,35 @@
+body{
+    height: 1000px;
+}
+
+.container{
+    display: flex;
+    align-content: flex-start;
+    border: 5px solid yellow;
+    height: 90vh;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+#box1{
+    background-color: hsl(180, 100%, 50%);
+}
+
+#box2{
+    background-color: hsl(160, 100%, 75%);
+}
+
+#box3{
+    background-color: hsl(271, 87%, 62%);
+}
+
+#box4{
+    background-color: hsl(300, 73%, 53%);
+}
