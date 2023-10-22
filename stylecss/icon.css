@@ -1,0 +1,53 @@
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fa-solid.fa-house.fa-5x{
+    color: hsl(0, 0%, 63%);
+}
+
+.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(0, 0%, 73%);
+}
+
+.fa-brands.fa-square-x-twitter.fa-5x{
+    color: hsl(0, 0%, 0%);
+}
+
+.fa-brands.fa-square-x-twitter.fa-5x:hover{
+    color: hsl(0, 0%, 10%);
+}
+
+
+.fa-brands.fa-facebook.fa-5x{
+    color: hsl(224, 100%, 52%);
+}
+
+.fa-brands.fa-facebook.fa-5x:hover{
+    color: hsl(224, 100%, 62%);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 100%, 52%);
+}
+
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 100%, 62%);
+}
+
+.fa-brands.fa-tiktok.fa-5x{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 80px;
+}
+
+.fa-brands.fa-tiktok.fa-5x:hover{
+    background-color: hsl(0, 0%, 10%);
+}
